@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+}
+
+.sidenav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 130px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: white;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+  text-align: center;
+  /*border-right: solid 1px;*/
+  box-shadow: 15px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 0 8px 0 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.one {
+  padding-top: 8px;
+  padding-bottom: 20px;
+  border-bottom: solid 2px #d9d9d9;
+}
+
+.two {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.three {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.four {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: black;
+}
+
+.two:hover {
+  background-color: #CDF0EA;
+  border-left: solid 4px #3C5186;
+}
+
+.three:hover {
+  background-color: #CDF0EA;
+  border-left: solid 4px #3C5186;
+}
+
+.four:hover {
+  background-color: #CDF0EA;
+  border-left: solid 4px #3C5186;
+}
+
+/* Style page content */
+.main {
+  margin-left: 120px;
+  /* Same as the width of the sidebar */
+  padding-left: 3px;
+}
+
+header {
+  padding-top: 92px;
+}
+
+.content {
+  background-color: #d9d9d9;
+  height: 596px;
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-right: 10px solid #555;
+	border-bottom: 4px solid transparent;
+  display: inline-block;
+}
+
+.tri {
+  padding-top: 30px;
+  padding-left: 40px;
+  color: #555;
+}
+
+.url-form {
+  padding-top: 50px;
+  padding-left: 140px;
+}
+
+#url-place {
+  width: 800px;
+  height: 20px;
+  border: none;
+}
+
+p {
+  padding-top: 10px;
+  padding-left: 40%;
+  font-weight: bolder;
+}
+
+.upload {
+  border: 1px solid white;
+  margin-left: 140px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+}
+
+#para {
+  padding: 50px 50px;
+  font-weight: bold;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
